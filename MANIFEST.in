@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vendomart *.css
+recursive-include vendomart *.csv
+recursive-include vendomart *.html
+recursive-include vendomart *.ico
+recursive-include vendomart *.js
+recursive-include vendomart *.json
+recursive-include vendomart *.md
+recursive-include vendomart *.png
+recursive-include vendomart *.py
+recursive-include vendomart *.svg
+recursive-include vendomart *.txt
+recursive-exclude vendomart *.pyc
